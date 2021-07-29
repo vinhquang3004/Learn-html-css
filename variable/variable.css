@@ -1,0 +1,20 @@
+/* Sử dụng variable trong css mục đích để khi muốn thay đổi màu chủ đạo 
+thì chỉ cần thay đổi thuộc tính của biến */
+
+
+/* thẻ giả global*/
+:root{
+    --text-color: red;
+}
+
+h1{
+    color: var(--text-color);
+}
+
+h2{
+    color: var(--text-color);
+}
+
+h3{
+    color: var(--text-color);
+}

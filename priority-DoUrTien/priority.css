@@ -1,0 +1,38 @@
+/* priority
+
+1. !important -10000
+2. inline - 1000
+3. #id - 100
+4. .class - 10
+5. tag - 1 
+6. universal inherited- 0
+
+(điểm càng cao độ ưu tiên càng cao) */
+
+/* !important */
+h1 {
+    color: red !important;
+}
+
+/* inline */
+/* <h1 style = "color: blue"> ... </h1> */
+
+/* id */
+#h1-id {
+    color: blue;
+}
+
+/* class */
+.h1-class {
+    color: orange;
+}
+
+/* tag */
+h1 {
+    color: black;
+}
+
+/* inherited */
+html {
+    color: grey;
+}
